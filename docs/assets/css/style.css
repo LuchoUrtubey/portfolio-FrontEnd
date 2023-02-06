@@ -106,16 +106,18 @@ body.dark-theme {
 
 .avatar{
     border-radius: 62.5em;
-    width: 25%;
+    width: 10em;
 }
 
 .container-avatar {
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 
 .container {
     display: flex;
+    padding-top: 1.5em;
 }
 
 .snap-container {
