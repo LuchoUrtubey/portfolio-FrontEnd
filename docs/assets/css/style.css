@@ -57,6 +57,10 @@ li.nav-item i{
     opacity: 0.6;
 }
 
+.navbar-toggler-icon:hover{
+    opacity: 0.6;
+}
+
 .btn-login {
    
     background-color: transparent;
