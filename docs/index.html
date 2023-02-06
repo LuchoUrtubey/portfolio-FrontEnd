@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d118451a8b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lucho Urtubey Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="position-fixed w-100 navbar navbar-expand-lg" id="nav">
+            <div class="container-fluid">
+                <!-- LOGO ARGENTINA PROGRAMA -->
+                <a class="navbar-brand" href="#">
+                    <img class="logo-ap" src="assets/img/aplogo.png" alt="Argentina Programa 4.0">
+                </a>
+                <!-- LOGO ARGENTINA PROGRAMA -->
+                <!-- MENÚ HAMBURGUESA DISPOSITIVOS MÓVILES -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> 
+                </button>
+                <!-- MENÚ HAMBURGUESA DISPOSITIVOS MÓVILES -->
+                <!-- REDES SOCIALES -->
+                <ul class="nav justify-content-end collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="https://github.com/LuchoUrtubey" target="_blank"><i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="https://www.linkedin.com/in/luisgerardourtubey/" target="_blank"><i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#"><i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <!-- REDES SOCIALES -->
+                    <!-- BOTÓN MODAL LOGIN -->
+                    <li class="nav-item">
+                        <button type="button" class="btn-login" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            <i class="fa-solid fa-lock"></i>
+                            <!-- <i class="fa-solid fa-lock-open"></i> -->
+                        </button>          
+                    </li>
+                    <!-- BOTÓN MODAL LOGIN -->
+                    <!-- BOTÓN DARK MODE -->
+                    <li class="nav-item">
+                        <button class="btn-dark-mode">
+                            <i class="fa-solid fa-sun"></i>
+                        </button>
+                    </li>
+                    <!-- BOTÓN DARK MODE -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="position-fixed top-50 end-0 translate-middle-y  d-flex align-items-center">
+            <ul class="list-unstyled">
+               <li class="section-item"><a class="nav-link active " href="#sobremi"><i class="fa-solid fa-pen-to-square"></i></a></li>
+               <li class="section-item"><a class="nav-link active " href="#experiencia"><i class="fa-solid fa-briefcase"></i></a></li>
+               <li class="section-item"><a class="nav-link active " href="#educacion"><i class="fa-solid fa-graduation-cap"></i></a></li>
+               <li class="section-item"><a class="nav-link active " href="#habilidades"><i class="fa-solid fa-sliders"></i></a></li>
+               <li class="section-item"><a class="nav-link active " href="#proyectos"><i class="fa-solid fa-code"></i></a></li>
+               <li class="section-item"><a class="nav-link active " href="#contacto"><i class="fa-solid fa-address-card"></i></a></li>
+            </ul>
+        </div>
+        <div class="snap-container">
+            <section class="snap-section">
+                <a name="sobremi"></a>
+                <div class="section-start"></div>
+                <div class="container">
+                    <div>
+                        <h1>Lucho Urtubey</h1>
+                        <p>Im a <span>Full Stack Web Developer</span></p>
+                    </div>
+                    <div class="container-avatar">
+                        <img class="avatar" src="assets/img/avatar.jpg" alt="Lucho Urtubey">
+                    </div>
+                </div>    
+            </section>
+            <section class="snap-section">
+                <a name="experiencia"></a>
+                <div class="section-start"></div>
+                <h2>Experiencia Laboral</h2>
+            </section>
+            <section class="snap-section">
+                <a name="educacion"></a>
+                <div class="section-start"></div>
+                <h2>Eduación</h2>
+            </section>    
+            <section class="snap-section">
+                <a name="habilidades"></a>
+                <div class="section-start"></div>
+                <h2>Habilidades</h2>
+            </section>
+            <section class="snap-section"> 
+                <a name="proyectos"></a>
+                <div class="section-start"></div>
+                <h2>Proyectos</h2>
+            </section>    
+            <section class="snap-section">
+                <a name="contacto"></a>
+                <div class="section-start"></div>
+                <h2>Contacto</h2>
+            </section>       
+        </div>
+    </main>
+    <footer id="footer">
+            <!-- COPYRIGHT -->
+            <div class="footer">
+                <p class="text-light center">Coded by <span>Lucho Urtubey</span> <span class="text-light italic"> ©Luchodev</span>  <script>document.write(new Date().getFullYear())</script> </p>
+            </div>
+            <!-- COPYRIGHT -->
+    </footer>
+
+    <!-- MODAL LOGIN -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- MODAL LOGIN -->
+    <!-- SCRIPTS -->
+    <script src="assets/js/darkmode.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <!-- SCRIPTS -->
+</body>
+</html>
